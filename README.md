@@ -54,3 +54,39 @@ The current visual layer combines classical artworks with ultraviolet/acid-yello
 ## Reference-led cyberpunk revision
 
 The supplied yellow/black/cyan reference replaces the earlier ultraviolet styling. The local portfolio uses original HNV branding, an industrial headline panel, angled technical windows, a triangular circuit mesh, cyan controls and hazard-yellow section accents. The featured project window opens SecureGeoCrypt’s case study; it does not publish its private source. All artwork credits and browser-only cipher functionality are retained.
+
+## Digital Frontier revision — 11 November 2026
+
+Local-only revision inspired by cinematic sci-fi city environments. No Diamante assets, logos, copy, proprietary fonts or code are included. The painting gallery and large painting inserts have been removed from the rendered portfolio. The original artwork files remain in the source archive for revision history.
+
+The opening combines an original generated cybercity matte with a transparent Three.js scene: foreground architecture, a chrome security core, moving worker packets, and a layered memory sculpture. GSAP ScrollTrigger drives a continuous camera path. Chapter navigation, ambient-animation pause, direct project dialogs, and a skip-to-work link remain available. Reduced-motion mode presents a static opening and directs the primary button to the projects. The lower sections use the same violet/silver palette and locally hosted Space Grotesk type.
+
+Custom asset: `public/cybercity-v1.webp`, generated with the built-in image-generation tool. Generation brief: `DESIGN_BRIEF.md`. No user files were uploaded or published. The city is an illustrative environment; the network objects are conceptual diagrams rather than live telemetry.
+
+Validation: TypeScript check; production build; desktop and 390px mobile browser inspection; chapter jump and SecureGeoCrypt dialog; skip-to-work; browser console check (no errors).
+
+## Vertical Descent rebuild — 11 November 2026
+
+The active design now uses `VerticalDescent.tsx`, replacing the forward-moving Three.js opening. The city matte translates only vertically under GSAP ScrollTrigger; independent billboard motion adds depth. The header stays fixed, with the wordmark left, a centred white navigation island and a violet clipped CV action right. A compact nine-panel dark feature grid leads into three wide illustrated case-study panels. All ten project records and the established professional information remain available.
+
+Four original images were generated for this revision and compressed to local WebP assets. See `DESIGN_BRIEF.md` for their prompts. The heading uses a locally hosted, widened DejaVu Sans Bold treatment; it does not bundle Diamante’s commercial Druk typeface. No reference website source code, branded imagery, logos or font binaries were copied.
+
+Checks: TypeScript; production build; vertical translation inspected mid-scroll; fixed header position; desktop and 390px mobile layouts; mobile menu; project detail open/close; no horizontal overflow on mobile; no captured browser errors. Remains local-only.
+
+## Project imagery and link icons — 11 November 2026
+
+Replaced the generated project-object illustrations in the visible feature grid and project panels with authored SVG technical plates and the real distributed-password-auditing dashboard screenshot from the supplied local project. The screenshot is labelled as a demonstration run. The other plates are explicitly schematic: contextual access, continual-learning replay, browser encryption and the Linux build roadmap. The approved city artwork and vertical scroll sequence are unchanged.
+
+Added recognisable GitHub and LinkedIn SVG marks to the connection panel, footer and repository links. Replaced the decorative rising chart with 24 checked cells corresponding to the existing project's documented test count. No new claims or benchmark values were introduced.
+
+Verified TypeScript, production build, desktop/mobile visual fit, project dialog, and browser console. Local-only; no upload or publication.
+
+
+## Text transition refinement
+
+Replaced threshold-based CSS text switches with sequential fades and small vertical movement on the same scrubbed GSAP timeline as the city. Outgoing text disappears before incoming text becomes visible, with reversible scroll progress. Accessibility state follows the smoothed timeline. Reduced-motion fallback is preserved. TypeScript and production build pass. The live browser connection closed before this revision could be visually rechecked.
+
+
+## Pixel typography refinement
+
+Added locally hosted Silkscreen (SIL Open Font License) to the wordmark, main headings, project titles and skill headings. GlitchText uses two decorative, accessibility-hidden clipped colour layers for brief cyan/violet offsets. The active hero has a brief effect every eight seconds; section headings respond on hover. Body copy keeps its readable existing typeface. Reduced-motion mode disables the effects. Desktop/mobile fit, intermediate scroll-fade opacity, TypeScript and production build were checked. Font license: public/fonts/Silkscreen-OFL.txt.
